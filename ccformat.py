@@ -1,7 +1,7 @@
 import re
 
 
-if __name__ == __main:
+if __name__ == "__main__":
     cc = input()
     print(formatcc(cc))
 
