@@ -1,10 +1,6 @@
 import re
 
 
-if __name__ == "__main__":
-    cc = input()
-    print(formatcc(cc))
-
 def formatcc(text_to_search):
     ccmatches = re.search(r'(3|4|5|6|7)\d{11,18}\D',text_to_search)
     if ccmatches is not None:
